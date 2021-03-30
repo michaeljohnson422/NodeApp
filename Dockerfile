@@ -1,4 +1,8 @@
 # use a node base image
+#FROM node:erbium-slim
+#FROM alpine:3.10
+
+#ENV NODE_VERSION 15.12.0
 FROM node:7-onbuild
 
 #set maintainer
